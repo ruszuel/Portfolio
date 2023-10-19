@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.head-container{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.navigation-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6em;
+}
+
+.navigation-list a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+
+.nav-list a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact-button{
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    border-color: whitesmoke;
+    background-color: none;
+    margin-right: 20px;
+}
+
+/* Body */
