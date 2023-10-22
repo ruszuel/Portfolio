@@ -13,9 +13,8 @@
 }
 
 .head-container{
-    background-color: black;
-    color: white;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .navigation-list{
@@ -25,7 +24,7 @@
 }
 
 .navigation-list a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -36,7 +35,7 @@
 }
 
 .nav-list a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -44,9 +43,21 @@
     border-radius: 10px;
     height: 30px;
     width: 100px;
-    border-color: whitesmoke;
+    border-color: black;
     background-color: none;
     margin-right: 20px;
 }
 
 /* Body */
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.main-container:nth-child(3){
+    width: 500px;
+}
+
+.overview{
+    text-align: center;
+}
