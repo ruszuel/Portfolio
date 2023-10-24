@@ -75,7 +75,7 @@
 }
 
 .card-containers{
-    background-color: gray;
+    /* background-color: gray; */
     padding: 20px;
 }
 
@@ -104,6 +104,12 @@
     border: 1px solid black;
     border-radius: 10px;
     height: 70px;
+}
+
+.card:hover{
+    background-color: gray;
+    border-color: whitesmoke;
+    box-shadow: 0 5px 10px rgba(255, 253, 253, 0.2);
 }
 
 .items{
@@ -156,8 +162,13 @@
     width: 12em;
     height: 12em;
     border: 1px solid whitesmoke;
+    border-radius: 10px;
     box-shadow: 0 3px 10px rgba(112, 110, 110, 0.2);
     /* padding-top: 20px; */
+}
+
+.service-list:hover{
+    background-color: gray;
 }
 
 .service-list img{
@@ -165,7 +176,7 @@
     width: 5rem;
 }
 .img-3{
-    height: 9rem;
+    height: 5rem;
     width: 7rem;
 }
 
