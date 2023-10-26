@@ -89,7 +89,7 @@
     .main-container{
         padding: 20px;
         display: grid;
-        grid-template-columns: repeat(3, 300px);
+        grid-template-columns: repeat(auto-fit, minmax(300px, 20rem));
         grid-gap: 1rem;
         place-content: center;
     }
@@ -140,7 +140,9 @@
 }
 
 .service-container{
-    padding: 20px 20px 20px 13rem;
+    display: grid;
+    place-items: center;
+    padding: 20px 20px 20px 20px;
 }
 
 .service-header{
@@ -150,10 +152,11 @@
 
 .services{
     display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 10px 0 10px 0;
+    align-content: center;
 }
 
 .service-list{
